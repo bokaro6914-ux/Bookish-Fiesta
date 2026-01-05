@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Gaming | Top 5 Downloads 2026</title>
+    <style>
+        :root {
+            --ios-blue: #007AFF;
+            --android-green: #3DDC84;
+            --bg-dark: #0f172a;
+            --card-bg: rgba(255, 255, 255, 0.05);
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, var(--ios-blue), var(--android-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .column-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .game-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .rank {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 2rem;
+            font-weight: bold;
+            opacity: 0.2;
+        }
+
+        .game-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .ios-accent { color: var(--ios-blue); }
+        .android-accent { color: var(--android-green); }
+
+        .description {
+            font-size: 0.95rem;
+            color: #cbd5e1;
+        }
+
+        @media (max-width: 768px) {
+            .container { grid-template-columns: 1fr; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mobile Gaming 2026</h1>
+    <p>The global charts: Most downloaded titles this year.</p>
+</header>
+
+<div class="container">
+    <div class="column">
+        <div class="column-header">
+            <h2 class="ios-accent"> iOS App Store</h2>
+        </div>
+
+        <div class="game-card">
+            <span class="rank">#1</span>
+            <span class="game-title">Block Blast!</span>
+            <p class="description">The ultimate brain-teaser that has taken the world by storm. It's a neon-soaked puzzle masterpiece where strategy meets satisfaction in every line clear.</p>
+        </div>
+
+        <div class="game-card">
+            <span class="rank">#2</span>
+            <span class="game-title">Imposter - Party Word Game</span>
+            <p class="description">Social deduction evolved. In 2026, this has become the go-to party game, challenging friends to spot the liar through clever linguistic traps.</p>
+        </div>
+
+        <div class="game-card">
+            <span class="rank">#3</span>
+            <span class="game-title">Roblox</span>
+            <p class="description">No longer just a game, but a universe. Roblox continues to dominate iOS with its limitless player-created worlds and social hangouts.</p>
+        </div>
+
+        <div class="game-card">
+            <span class="rank">#4</span>
+            <span class="game-title">Last War: Survival</span>
+            <p class="description">A high-octane mix of base building and zombie defense. Dodge, defend, and rebuild humanity in the most addictive strategy loop of the year.</p>
+        </div>
+
+        <div class="game-card">
+            <span class="rank">#5</span>
+            <span class="game-title">Whiteout Survival</span>
+            <p class="description">Strategy in the freezing tundra. Players must manage heat, resources, and alliances to survive the eternal winter of this gorgeous survival sim.</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="column-header">
+            <h2 class="android-accent">🤖 Google Play Store</h2>
+        </div>
+
+        <div class="game-card">
+            <span class="rank">#1</span>
+            <span class="game-title">Free Fire: Winterlands</span>
+            <p class="description">The king of mobile battle royale. With lightning-fast matches and incredible tactical depth, it remains the most downloaded Android game globally.</p>
+        </div>
+
+        <div class="game-card">
+            <span class="rank">#2</span>
+            <span class="game-title">Monopoly GO!</span>
+            <p class="description">The classic board game reimagined for the 5G era. It’s vibrant, social, and perfectly captures the thrill of building a real-estate empire on the go.</p>
+        </div>
+
+        <div class="game-card">
+            <span class="rank">#3</span>
+            <span class="game-title">Pokémon GO</span>
+            <p class="description">A decade later and still a phenomenon. With the 2026 AR updates, catching 'em all feels more real—and more social—than ever before.</p>
+        </div>
+
+        <div class="game-card">
+            <span class="rank">#4</span>
+            <span class="game-title">Clash Royale</span>
+            <p class="description">The ultimate 3-minute duel. Supercell’s masterpiece of card-based strategy remains a staple for competitive players on Android worldwide.</p>
+        </div>
+
+        <div class="game-card">
+            <span class="rank">#5</span>
+            <span class="game-title">Royal Match</span>
+            <p class="description">King Robert needs your help! This match-3 powerhouse is a masterclass in polish, offering thousands of levels with zero interruptions and pure fun.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
